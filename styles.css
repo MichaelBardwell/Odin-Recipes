@@ -1,15 +1,48 @@
+* {
+    background-color: gray;
+    color:white;
+}
+
 img {
-    height: auto;
+    display: block;
+    height: 300px;
     width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
-div {
-    color: white;
-    background-Color: black;
-}
+
 body {
-    color: white;
-    background-Color: black;
+    margin-left: 8%;
+    margin-right: 5%;
+    text-align: justify;
 }
 p {
-color:red;
+}
+
+H1 {
+    text-align: center;
+}
+
+h2 {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;  
+}
+
+.columns { 
+float: left;
+width: 33.33%;
+}
+
+.row:after {
+    content=""
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
+    
 }
