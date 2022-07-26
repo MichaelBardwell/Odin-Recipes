@@ -24,12 +24,8 @@ H1 {
     text-align: center;
 }
 
-h2 {
-  text-decoration-line: underline;
-  text-decoration-style: wavy;  
-}
 
-div .columns img{ 
+.columns img{ 
 float: left;
 text-align: justify;
 width: 33.33%;
@@ -39,11 +35,6 @@ div .row:after {
     content="";
     display: table;
     clear: both;
-}
-
-div {
-    float:left;
-    padding:15px;
 }
 
 @media screen and (max-width: 600px) {
